@@ -1,0 +1,24 @@
+Inserccion de estilos
+
+    Como un archivo externo
+    Como parte del mismo HTML
+    Como elemento inline
+    
+MEDIDAS CSS
+    Longitudes absolutas
+
+    px - Referencia a los pixeles
+    cm - Centímetros
+
+    Longitudes relativas a la fuente
+
+    em - originalmente definida como medida tipografica, sin usar ningun css en el valor
+    de un em es:
+        1em == 16px
+        pt - un punto se refiere a 1/72 pulgadas
+        pc - una pica similar a los puntos representada por 1 pc==12cm
+
+    Longitudes porcentuales
+        vw - unidad de ancho de ventana
+        vh - unidad de alto de ventana
+        % - porcentaje relativo al elemento padres

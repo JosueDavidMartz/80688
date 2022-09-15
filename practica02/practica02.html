@@ -7,19 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1, p{
+        .iu:hover{
+            background-color: green;
+            font-weight: bold;
+        }
+
+        h1 {
             font-size: 15px;
             color: green;
         }
+
+        span {
+            color: aquamarine;
+        }
+
+        #p1 {
+            color: red;
+        }
+
+        #p2 {
+            color: yellow;
+        }
+
+        #p3 {
+            color: blue
+        }
+
+        .peso {
+            font-weight: bold;
+            color: black;
+        }
+       
+
+        .ui{
+            color: white;
+            padding: 10px;
+           
+        }
+        
+
+        #borrar{
+            background-color: red;
+        }
+       /* #borrar:hover{
+            background-color: beige;
+        }*/
+        
+        #cambiar{
+            background-color: green;
+        }
+        #guardar{
+            background-color: blue;
+        }
+        
     </style>
     <link rel="stylesheet" href="practica02.css">
 </head>
 
 <body>
+    <div><input type="button" value="borrar datos" id="borrar" class="ui">
+        <input type="button" value="copia datos" id="cambiar" class="ui">
+        <input type="button" value="guardar datos" id="guardar" class="ui"></div>
     <h1 style="color: red;">título de nivel 1</h1>
-    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi corporis rem veritatis, maiores in
+    <p><span id="p1" class="peso">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi corporis rem
+            veritatis, maiores
+            in
             eaque nisi similique mollitia sed fugit laborum voluptatum voluptas iusto itaque, iste repellat repellendus
             inventore.</span></p>
+    <p><span id="p2" class="peso">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita labore aliquam,
+            repellendus
+            debitis
+            similique ut quia perferendis aspernatur sequi deleniti assumenda non molestias provident accusantium fugit
+            natus perspiciatis? In, ea.</span></p>
+
+    <div><span id="p3" class="peso">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores harum
+            voluptate vel
+            ipsam et
+            consequuntur dolor tempora odit aliquid itaque officiis, nisi, hic sequi corporis doloremque repellendus
+            inventore. Cum.</span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis voluptate deleniti
+            obcaecati repellendus ad eveniet hic voluptas, illum ipsum, a id, dolore asperiores quis earum harum tempora
+            veniam. Ex.</span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis voluptate deleniti
+            obcaecati repellendus ad eveniet hic voluptas, illum ipsum, a id, dolore asperiores quis earum harum tempora
+            veniam. Ex.</span>
+    </div>
 </body>
 
 </html>
