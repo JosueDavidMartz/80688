@@ -14,8 +14,20 @@
 
         .padre{
             background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
           /*  margin: 10px;
             padding: 10px;*/
+        }
+        .hijo{
+            margin: 10px;
+            background-color: yellow;
+            /*margin: auto;*/
+            width: 200px;
+        }
+        .hijo2{
+            background-color: bisque;
+            width: 200px;
         }
     </style>
 </head>
@@ -26,5 +38,32 @@
     <div class="padre">04</div>
     <div class="padre">05</div>
 
+    <div class="padre">
+        <div class="hijo2">h01</div>
+        <div class="hijo2">h02</div>
+        <div class="hijo2">h03</div>
+        <div class="hijo2">h04</div>
+        <div class="hijo2">h05</div>
+       
+    </div>
+    <div class="padre">
+        <div class="hijo">h02</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h03</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h04</div>
+    </div>
+
+    
+
+    <p class="padre">
+        <div class="hijo2">h01</div>
+        <div class="hijo2">h02</div>
+        <div class="hijo2">h03</div>
+        <div class="hijo2">h04</div>
+        <div class="hijo2">h05</div>
+    </p>
 </body>
 </html>

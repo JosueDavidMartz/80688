@@ -22,3 +22,5 @@ MEDIDAS CSS
         vw - unidad de ancho de ventana
         vh - unidad de alto de ventana
         % - porcentaje relativo al elemento padres
+Pseudoclases
+Pseudoelementos
