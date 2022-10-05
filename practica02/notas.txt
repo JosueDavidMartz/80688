@@ -24,3 +24,12 @@ MEDIDAS CSS
         % - porcentaje relativo al elemento padres
 Pseudoclases
 Pseudoelementos
+
+DOM - Document Object Model
+    Responsable de permitira travez la manipulación para modificar de forma dinmaica una página a travéz de javascript
+    Un api para el manejo de documentos HTML y XML que representa una jerarquía de objetos como nodos
+    El DOM es responsabilidad del navegador
+    *live dom viewer como herramienta
+    Tiene todos los elementos como objetos
+    
+Tipos mime
