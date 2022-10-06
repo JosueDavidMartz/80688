@@ -14,12 +14,20 @@
         function cambiarColores(color1){
                 
                 var e = document.getElementsByTagName('h1')
-                for(var i=0; i<4; i++){
-                    e[i].style.color = color1
-                    console.log("cambiando el color a: "+e[i].textContent)
+               // for(var i=0; i<4; i++){
+                 //   e[i].style.color = color1
+                   // console.log("cambiando el color a: "+e[i].textContent)
+                //}
+               // var arr = [].slice.call(e);
+                //arr.forEach(element => {console.log(element)
+                  //  element.style.color = color;    
+                //});
+                for(const p in e){
+                    if(e[p] != "lenght")
+                        e[p].style.color = color1
                 }
 
-        }
+        } 
     </script>
 </head>
 <body>
