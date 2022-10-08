@@ -22,9 +22,15 @@
                 //arr.forEach(element => {console.log(element)
                   //  element.style.color = color;    
                 //});
-                for(const p in e){
-                    if(e[p] != "lenght")
-                        e[p].style.color = color1
+              //  for(const p in e){
+                //    if(e[p] != "lenght")
+                  //      e[p].style.color = color1
+                //}
+
+                for(const x in e){
+                    if(e.hasOwnProperty(x)){
+                        const element = e[x].style.color1 = "red";
+                    }
                 }
 
         } 
