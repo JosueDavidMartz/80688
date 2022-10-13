@@ -7,7 +7,7 @@ o2.prop = "existo"
 
 var msj_bot = {
     saludo:"hola",
-    despedida:"adops",
+    despedida:"adios",
     preocupacion:"cómo estás",
     sorpresa:"orale!"
 }
@@ -15,4 +15,3 @@ var msj_bot = {
 var arr_msj = ["hola", "adios","cómo estás?","orale!"]
 
 
-console.log()

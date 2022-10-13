@@ -30,3 +30,4 @@ function woz(params){
         return "despedida"                     
     if(params == "")
         return "preocupacion"                     
+}
